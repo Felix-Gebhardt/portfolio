@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 body {
-  background-color: #000;
+  background: linear-gradient(#0f2027, #203a43, #2c5364);
   color: white;
   font-family: 'Quicksand', sans-serif;
   line-height: 1.5;
@@ -29,13 +29,17 @@ ul {
 a {
   color: inherit; }
 
-.bottom, .header {
-  width: 100%; }
+#s1, .header_heading {
+  margin-bottom: 350px; }
 
-.bottom {
-  margin-top: 350px; }
+#s1 {
+  display: flex;
+  padding: 70px; }
 
 .footer {
   margin-top: 100px; }
+
+#fp-nav ul li a span, .fp-sliedesNav ul li a span {
+  background: white !important; }
 
 /*# sourceMappingURL=main.css.map */
