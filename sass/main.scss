@@ -13,22 +13,29 @@
     }
 }
 
-@keyframes transitionIn1 {
+@keyframes transitionInPic {
     from {
         opacity: 0;
-        transform: rotateY(-15deg);
+        transform: rotateY(-25deg);
         
     }
 
     to {
-        opacity: 1;
+        opacity: 0.85;
         transform: rotateY(0);
     }
 }
 
+
+
+
 body{
     //background-color: #000;
-    background: linear-gradient(#0f2027, #203a43, #2c5364) !important;
+    
+    //background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    //background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
     color: white;
     font-family: 'Quicksand', sans-serif;
     line-height: 1.5;
@@ -44,10 +51,12 @@ body{
 
 .header_title{
     font-weight:400;
+    margin-top: 0;
 }
 
 .main_description {
-    max-width:20em;
+    margin-top: 200px;
+    max-width: 20em;
     font-size: 2rem;
 }
 
@@ -64,24 +73,38 @@ a {
     color: inherit;
 }
 
-#s1, .header_heading{
-    margin-bottom: 350px;
+.header_heading, .main_description, .footer{
+    //animation: transitionIn 3s;
+    padding: 70px;
 }
 
 #s1{
-    animation: transitionIn1 3s;
-    background: url(../img/me_trans.png) no-repeat;
-    background-size: 600px auto;
-    background-position-x: 600px;
-    background-position-y: 200px;
-    display: flex;
-    animation: transitionIn 3s !important;
-    padding: 70px;
-    
+    animation: transitionIn 3s;
+    //background: url(../img/me_trans.png) no-repeat center; 
 }
 
+
+.pic{
+    top: 270px;
+    left: 1325px;
+    //margin-left: 600px;
+    width: 600px;
+    height: 712px;
+    background: url(../img/me_trans.png) no-repeat center;
+    background-size: 600px auto;
+    //background-position-x: 400px;
+    //background-position-y: 200px;
+    position: absolute;
+    animation: transitionInPic 3s;
+    opacity: 0.85;
+}
+
+/*.pic:hover{
+    opacity: 1;
+}*/
+
 .footer{
-    margin-top: 100px;
+    margin-top: -70px;
 }
 
 #fp-nav ul li a span, .fp-sliedesNav ul li a span {
