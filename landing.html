@@ -2,7 +2,7 @@
 <html lang="de"> 
     <head> 
         <meta charset="UTF-8"/> 
-        <title>Felix Gebhardt - German Front- &amp; Backend Developer</title> 
+        <title>Felix Gebhardt - Software Developer</title> 
         <meta name="viewport" content="width=device-width"/>
         <meta name="author" content="Felix Gebhardt"/> 
         <meta name="creator" content="Felix Gebhardt"/> 
@@ -18,17 +18,19 @@
     </head>
 
     <body>
+        <div class="cursor"><span class="dot"></span></div>
+        
         <div id="fullpage">
             <div class="section" id="s1" >
-
+                
                 <h2 class="header_heading"> 
                     <span class="header_name">Felix Gebhardt</span> 
-                    <span class="header_title">Full Stack Developer</span> 
+                    <span class="header_title">Software Developer</span> 
                 </h2>  
                 
             
                 <p class="main_description">
-                    I'm a Full Stack Developer based in Germany, 
+                    I'm a Software Developer based in Germany, 
                     specializing in MERN Stack web development and UI/UX design,
                     currently working full-time with
                     <a class="link" href="https://www.toptechnologies.de">Top Technologies</a>           
@@ -67,6 +69,23 @@
                 loopBottom: true
                 
             });
+        </script>
+
+        <script type="text/javascript">
+        const cursor = document.querySelector('.cursor')
+
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top:" +(e.pageY - 10)+ "px; left:"+(e.pageX - 10)+"px;");
+        })
+        
+        // onclick red border that expands and shrinks again
+        document.addEventListener('click', () => {
+            cursor.classList.add("expand");
+
+            setTimeout (() => {
+                cursor.classList.remove("expand");
+            }, 500)
+        })
         </script>
 
     </body>
