@@ -139,6 +139,8 @@ body{
 
 .link {
     text-decoration: none;
+    color: inherit;
+    cursor: none;
 }
 
 .link:hover{
@@ -149,11 +151,6 @@ body{
 ul {
     list-style: none;
     padding: 0;
-}
-
-a {
-    color: inherit;
-    cursor: none;
 }
 
 .fp-tooltip{
@@ -244,7 +241,7 @@ h3{
     font-size: 22px;
 }
 
-li{
+.list-content{
     display: flex;
     justify-content: center;
     margin-top: 20px;

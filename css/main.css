@@ -96,7 +96,9 @@ body {
   font-size: 2rem; }
 
 .link {
-  text-decoration: none; }
+  text-decoration: none;
+  color: inherit;
+  cursor: none; }
 
 .link:hover {
   text-decoration: underline; }
@@ -104,10 +106,6 @@ body {
 ul {
   list-style: none;
   padding: 0; }
-
-a {
-  color: inherit;
-  cursor: none; }
 
 .fp-tooltip {
   cursor: none !important; }
@@ -177,7 +175,7 @@ h3 {
   margin-bottom: 30px;
   font-size: 22px; }
 
-li {
+.list-content {
   display: flex;
   justify-content: center;
   margin-top: 20px; }
