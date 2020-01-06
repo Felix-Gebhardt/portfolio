@@ -67,7 +67,7 @@
   transition-duration: 30ms;
   transition-timing-function: ease-out;
   animation: cursorAnim 0.6s infinite alternate;
-  z-index: 1; }
+  z-index: 0; }
 
 .dot {
   height: 6px;
@@ -239,6 +239,11 @@ h3 {
 #s3-heading {
   margin-left: -630px; }
 
+.header_heading2 {
+  padding: 70px;
+  position: absolute;
+  margin: 0; }
+
 @media screen and (max-width: 500px) {
   body {
     width: 100vw;
@@ -251,7 +256,7 @@ h3 {
 
   .header_heading {
     margin-top: 0px;
-    font-size: 4vw; }
+    font-size: 4.5vw; }
 
   .main_description {
     margin-top: 40vh;
@@ -269,13 +274,34 @@ h3 {
     background-size: 40vh; }
 
   .card {
-    width: 100vw;
-    height: 60vh;
+    width: 45vw;
+    height: 50vh;
+    font-size: 2.5vw;
+    margin-left: 130px;
     margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 200px; }
+    margin-bottom: -60px; }
+
+  .card > h3 {
+    font-size: 3.5vw; }
 
   .fp-tableCell {
-    vertical-align: top !important; } }
+    vertical-align: top !important; }
+
+  #con1 {
+    display: inline-block; }
+
+  .header_heading2 {
+    padding: 40px;
+    font-size: 5vw; }
+
+  #background-s2 {
+    height: 250vh;
+    background-position: 40% 40% no-repeat;
+    opacity: 0.8; }
+
+  .list-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; } }
 
 /*# sourceMappingURL=main.css.map */

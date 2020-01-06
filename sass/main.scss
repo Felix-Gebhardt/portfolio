@@ -96,7 +96,6 @@
 }*/
 
 .cursor{
-    
     width: 20px;
     height: 20px;
     border: 0.5px solid gray;
@@ -107,7 +106,7 @@
     transition-timing-function: ease-out;
     // pulse animation
     animation: cursorAnim 0.6s infinite alternate;
-    z-index: 1;
+    z-index: 0;
 }
 
 .dot {
@@ -120,6 +119,7 @@
     background-color: white;
     border-radius: 50%;
     display: flex;
+    
   }
 
 .expand {
@@ -162,6 +162,7 @@ body{
     text-decoration: none;
     color: inherit;
     cursor: none;
+    
 }
 
 .link:hover{
@@ -248,7 +249,6 @@ ul {
     margin-right: 70px;
     border: #84B4BA solid;
     border-radius: 5%;
-    //background: #314345;
     background: #2B3A3C;
     opacity: 0.9;
     box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.5), -30px 0px 40px rgba(0, 0, 0, 0.5);
@@ -323,6 +323,13 @@ h3{
     margin-left: -630px;
 }
 
+.header_heading2{
+        padding: 70px;
+        position: absolute;
+        margin: 0;
+}
+
+
 // 425px 768px 1024px
 
 @media screen and (max-width: 500px) {
@@ -337,7 +344,7 @@ h3{
         }
         .header_heading{ 
                 margin-top: 0px;
-                font-size: 4vw;
+                font-size: 4.5vw;
         }
         .main_description{
                 margin-top: 40vh;
@@ -355,14 +362,36 @@ h3{
                 background-size: 40vh;
         }
         .card{
-                width: 100vw;
-                height: 60vh;
+                width: 45vw;
+                height: 50vh;
+                font-size: 2.5vw;
+                margin-left:  130px;
                 margin-top: 100px;
-                margin-left: 100px;
-                margin-right: 200px;
+                margin-bottom: -60px;
+                
+        }
+        .card > h3{ 
+                font-size: 3.5vw;      
         }
         .fp-tableCell{
                 vertical-align: top !important;
         }
-        
+        #con1{
+                display: inline-block;
+                
+        }
+        .header_heading2{
+                padding: 40px;
+                font-size: 5vw;
+        }
+        #background-s2{
+                height: 250vh;
+                background-position: 40% 40% no-repeat;
+                opacity: 0.8;
+        }
+        .list-content{
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+            }
 }
