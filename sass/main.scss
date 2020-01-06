@@ -325,7 +325,7 @@ h3{
 
 // 425px 768px 1024px
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
         body{
                 width: 100vw;
                 height: 100vh;
@@ -333,19 +333,17 @@ h3{
         }
         .header_heading, .main_description, .footer{
                 margin-left: 3vw;
+                padding: 30px;
         }
-        .header_heading{
-                padding: 40px;
+        .header_heading{ 
                 margin-top: 0px;
                 font-size: 4vw;
         }
         .main_description{
                 margin-top: 280px;
                 font-size: 4vw;
-                padding: 40px;
         }
         .footer{
-                padding: 40px;
                 font-size: 3vw;
                 margin-top: -12vh;
                 
