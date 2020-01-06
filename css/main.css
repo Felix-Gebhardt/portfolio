@@ -242,7 +242,8 @@ h3 {
 @media screen and (max-width: 500px) {
   body {
     width: 100vw;
-    height: 100vh; }
+    height: 100vh;
+    background-image: linear-gradient(360deg, #000000 0%, #2c3e50 74%); }
 
   .header_heading, .main_description, .footer {
     margin-left: 3vw; }
@@ -271,7 +272,7 @@ h3 {
 
   .card {
     width: 100vw;
-    height: 40vh;
+    height: 60vh;
     margin-top: 100px;
     margin-left: 100px;
     margin-right: 200px; }
