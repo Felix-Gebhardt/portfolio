@@ -239,7 +239,7 @@ h3 {
 #s3-heading {
   margin-left: -630px; }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
   body {
     width: 100vw;
     height: 100vh;
