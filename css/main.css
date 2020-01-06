@@ -244,33 +244,39 @@ h3 {
     width: 100vw;
     height: 100vh; }
 
+  .header_heading, .main_description, .footer {
+    margin-left: 3vw; }
+
   .header_heading {
-    padding: 80px;
+    padding: 40px;
     margin-top: 0px;
     font-size: 4vw; }
 
   .main_description {
-    margin-top: 100px;
+    margin-top: 300px;
     font-size: 3vw;
-    padding: 80px; }
+    padding: 40px; }
 
   .footer {
-    padding: 80px;
+    padding: 40px;
     font-size: 3vw;
-    margin-top: -170px; }
+    margin-top: 0x; }
 
   .pic {
-    top: 140px;
-    left: 50px;
+    top: 20vh;
+    left: 13vw;
     width: 40vw;
     height: 40vh;
-    background-size: 250px auto; }
+    background-size: 300px auto; }
 
   .card {
     width: 100vw;
     height: 40vh;
     margin-top: 100px;
     margin-left: 100px;
-    margin-right: 200px; } }
+    margin-right: 200px; }
+
+  .fp-tableCell {
+    vertical-align: top !important; } }
 
 /*# sourceMappingURL=main.css.map */
