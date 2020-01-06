@@ -254,7 +254,7 @@ h3 {
     font-size: 4vw; }
 
   .main_description {
-    margin-top: 280px;
+    margin-top: 40vh;
     font-size: 4vw; }
 
   .footer {
@@ -263,10 +263,10 @@ h3 {
 
   .pic {
     top: 20vh;
-    left: 2vw;
+    left: 0vw;
     width: 60vw;
     height: 38vh;
-    background-size: 300px auto; }
+    background-size: 40vh; }
 
   .card {
     width: 100vw;
