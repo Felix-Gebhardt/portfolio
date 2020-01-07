@@ -356,7 +356,7 @@ h3{
 
 // 425px 768px 1024px
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 375px) {
         body{
                 width: 100vw;
                 height: 100vh;
@@ -476,7 +476,7 @@ h3{
         }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
     #con1{
         height: 100vh;
         width: 100vw;
