@@ -106,7 +106,7 @@
     transition-timing-function: ease-out;
     // pulse animation
     animation: cursorAnim 0.6s infinite alternate;
-    z-index: 0;
+    //z-index: 2;
 }
 
 .dot {
@@ -139,12 +139,12 @@ body{
     margin: 0;
     text-align: left;
     padding: 65px;
-    height: 200vh;
+    height: 100vh;
     cursor: none;
 }
 
 .header_heading span{
-    display:block;
+    display: block;
 }
 
 .header_title{
@@ -183,10 +183,15 @@ ul {
     padding: 70px;
 }
 
+#con1{
+    height: 97.9vh;
+}
+
 #s1{
     animation: transitionIn 3s;
     //background: url(../img/me_trans.png) no-repeat center; 
 }
+
 
 
 .pic{
@@ -267,8 +272,8 @@ h3{
 }
 
 .box{
-    margin-top: 150px;
-    margin-left: 120px;
+    margin-top: 0px;
+    margin-left: -300px;
     width: 900px;
     height: 600px;
     border: #84B4BA solid;
@@ -302,6 +307,12 @@ h3{
     margin-top: 10px;
 }
 
+#con3{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
 #background-s3{
     position: absolute;
     z-index: -1;
@@ -324,10 +335,22 @@ h3{
         position: absolute;
         margin: 0;
 }
-// 
 
 .iScrollIndicator{
     background-color: #445F62 !important;
+}
+
+#svg1{
+    width:  3vw;
+    height: 5vh;
+    margin-left: 820px;
+    position: absolute;
+
+}
+.header_heading3{
+    margin: 0;
+    padding: 70px;
+    //position: absolute;
 }
 
 
@@ -338,6 +361,7 @@ h3{
                 width: 100vw;
                 height: 100vh;
                 background-image: linear-gradient(360deg, #000000 0%, #2c3e50 74%);
+                cursor: none;
         }
         .header_heading, .main_description, .footer{
                 margin-left: 3vw;
@@ -378,7 +402,8 @@ h3{
         .fp-tableCell{
                 vertical-align: top !important;
         }
-        #con1{
+        #con2{
+
                 display: grid;
                 justify-content: center;
                 align-content: flex-start;
@@ -424,5 +449,26 @@ h3{
         #con3{
             width: 100vw;
             height: 60vh;
+        }
+        .cursor{
+            width: 0px;
+            height: 0px;
+            top: 0;
+            left: 0;
+        }
+        
+        .dot {
+            height: 0px;
+            width: 0px;
+            margin-left: 0px;
+            margin-top: 0px;       
+          }
+        
+        .expand {
+            animation: none;
+            border: 0px solid black;
+        }
+        #svg1{
+            margin-left: 190px;
         }
 }
