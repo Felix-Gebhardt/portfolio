@@ -378,7 +378,8 @@ h3{
                 vertical-align: top !important;
         }
         #con1{
-                display: inline-block;
+                display: grid;
+                justify-content: center;
                 
         }
         .header_heading2{
