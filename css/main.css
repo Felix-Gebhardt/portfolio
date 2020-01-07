@@ -207,7 +207,6 @@ h3 {
 .showcase {
   width: 600px;
   height: 400px;
-  border: blue solid;
   opacity: 1 !important;
   background: black;
   z-index: 1; }
@@ -235,9 +234,6 @@ h3 {
 
 .fp-viewing-2 .box {
   animation: animation-box 1.5s; }
-
-#s3-heading {
-  margin-left: -630px; }
 
 .header_heading2 {
   padding: 70px;
@@ -292,7 +288,7 @@ h3 {
     display: grid;
     justify-content: center;
     align-content: flex-start;
-    height: 1600px; }
+    height: 1400px; }
 
   .header_heading2 {
     padding: 40px;
@@ -300,7 +296,7 @@ h3 {
 
   #background-s2 {
     height: 250vh;
-    background-size: 700px 1600px;
+    background-size: 700px 1400px;
     opacity: 0.8;
     color: black; }
 
@@ -315,13 +311,17 @@ h3 {
   .box {
     width: 65vw;
     height: 35vh;
-    margin-top: 125px;
-    margin-left: 465px; }
+    margin-top: 100px;
+    margin-left: -70px; }
 
   .showcase {
     width: 40vw;
     height: 23vh;
     margin-right: 12px;
-    margin-left: -46px; } }
+    margin-left: -46px; }
+
+  .header_heading3 {
+    padding: 40px;
+    font-size: 5vw; } }
 
 /*# sourceMappingURL=main.css.map */
