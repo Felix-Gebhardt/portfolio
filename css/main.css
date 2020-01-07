@@ -323,7 +323,8 @@ h3 {
   .header_heading3 {
     padding: 40px;
     font-size: 5vw;
-    font-weight: 700; }
+    font-weight: 700;
+    margin-bottom: 30px; }
 
   #con3 {
     width: 100vw;
