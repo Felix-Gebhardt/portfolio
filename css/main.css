@@ -275,10 +275,10 @@ h3 {
 
   .card {
     width: 45vw;
-    height: 50vh;
+    height: 40vh;
     font-size: 2.5vw;
-    margin-top: 100px;
-    margin-bottom: -60px; }
+    margin-top: 150px;
+    margin-bottom: -90px; }
 
   .card > h3 {
     font-size: 3.5vw; }
@@ -288,7 +288,8 @@ h3 {
 
   #con1 {
     display: grid;
-    justify-content: center; }
+    justify-content: center;
+    height: 2000px; }
 
   .header_heading2 {
     padding: 40px;
