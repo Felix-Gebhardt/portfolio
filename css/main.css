@@ -309,19 +309,24 @@ h3 {
     margin-top: 30px; }
 
   .box {
-    width: 65vw;
+    width: 67vw;
     height: 35vh;
     margin-top: 100px;
     margin-left: -70px; }
 
   .showcase {
-    width: 40vw;
+    width: 42vw;
     height: 23vh;
     margin-right: 12px;
     margin-left: -46px; }
 
   .header_heading3 {
     padding: 40px;
-    font-size: 5vw; } }
+    font-size: 5vw;
+    font-weight: 700; }
+
+  #con3 {
+    width: 100vw;
+    height: 80vh; } }
 
 /*# sourceMappingURL=main.css.map */
