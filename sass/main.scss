@@ -385,7 +385,9 @@ h3{
         #con1{
                 display: grid;
                 justify-content: center;
-                height: 1960px;
+                align-content: flex-start;
+                height: 1600px;
+                
         }
         .header_heading2{
                 padding: 40px;
@@ -395,10 +397,14 @@ h3{
                 height: 250vh;
                 background-size: 620px 1715px;
                 opacity: 0.8;
+                color: black;
         }
         .list-content{
                 display: flex;
                 justify-content: center;
                 margin-top: 10px;
             }
+        #card2, #card3, #card4{
+            margin-top: 30px;
+        }
 }
