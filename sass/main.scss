@@ -356,9 +356,7 @@ h3{
 
 // 425px 768px 1024px
 
-
-// min 375
-@media screen and (max-width: 700px) {
+@media (min-width: 375px) and (max-width: 768px) {
         body{
                 width: 100vw;
                 height: 100vh;
@@ -478,7 +476,7 @@ h3{
         }
 }
 // min 700 into 
-/*@media screen and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     #con1{
         height: 100vh;
         width: 100vw;
@@ -541,11 +539,10 @@ h3{
 
 }
 
-@media screen and (min-width: 1000px) {
+@media (min-width: 1920px) {
     #con1{
-        //color: black;
+        color: black;
     }
 
 }
 
-*/
