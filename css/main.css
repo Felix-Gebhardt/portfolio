@@ -368,7 +368,11 @@ h3 {
     margin-left: 160px; }
 
   #con1 {
-    height: 100vh; } }
+    height: 70vh; } }
+  @media (min-width: 320px) and (max-width: 480px) and (max-height: 667px) {
+    #con1 {
+      height: 100vh; } }
+
 @media (min-width: 768px) and (max-width: 1024px) {
   #con1 {
     height: 100vh;
