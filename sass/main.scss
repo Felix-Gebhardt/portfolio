@@ -356,7 +356,7 @@ h3{
 
 // 425px 768px 1024px
 
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 480px) {
         body{
                 width: 100vw;
                 height: 100vh;
@@ -539,7 +539,7 @@ h3{
 
 }
 
-@media (min-width: 1920px) {
+@media (min-width : 1824px) {
     #con1{
         color: black;
     }
