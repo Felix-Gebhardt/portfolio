@@ -168,7 +168,6 @@ ul {
   display: flex;
   justify-content: center;
   text-align: center;
-  z-index: 1;
   position: relative; }
 
 #con2 {
@@ -236,7 +235,7 @@ h3 {
   z-index: -1;
   width: 100vw;
   height: 100vh;
-  opacity: 0.7;
+  opacity: 0.5;
   background: url(../img/projects5.jpg); }
 
 .fp-viewing-1 .card {
@@ -464,6 +463,82 @@ h3 {
     border: 0px solid black; } }
 @media (min-width: 2560px) {
   #con1 {
-    color: black; } }
+    width: 100vw;
+    height: 100vh; }
+
+  .header_heading {
+    font-size: 1.5vw; }
+
+  .main_description {
+    font-size: 1.7vw;
+    margin-top: 325px; }
+
+  .footer {
+    font-size: 1vw;
+    margin-top: -120px; }
+
+  .pic {
+    height: 100vh;
+    width: 100vw;
+    top: 12vh;
+    left: 67vh;
+    background-size: 35vw; }
+
+  #svg1 {
+    margin-top: 50px;
+    margin-left: 1150px; }
+
+  .header_heading2 {
+    font-size: 1.5vw; }
+
+  #con2 {
+    height: 80vh;
+    width: 100vw;
+    border: red; }
+
+  .card > h3 {
+    font-size: 1.3vw; }
+
+  .card {
+    margin-left: 0;
+    margin-right: 100px;
+    margin-top: 150px;
+    width: 16vw;
+    height: 40vh;
+    font-size: 1vw; }
+
+  #background-s2 {
+    height: 100vh;
+    background-size: 2260px 1400px;
+    opacity: 0.5;
+    color: black; }
+
+  #con3 {
+    height: 82vh;
+    width: 100vw; }
+
+  .header_heading3 {
+    font-size: 1.5vw; }
+
+  .desc {
+    font-size: 1vw;
+    margin-top: 50px; }
+
+  #showcase-header {
+    font-size: 1.2vw; }
+
+  .box {
+    margin-top: 100px;
+    height: 40vh;
+    width: 45vw; }
+
+  .showcase {
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 30vh;
+    width: 30vw; }
+
+  #background-s3 {
+    margin-top: -25px; } }
 
 /*# sourceMappingURL=main.css.map */
